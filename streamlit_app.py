@@ -21,4 +21,4 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display the table on the page
 # This was the original line for the full tablestreamlit.dataframe(my_fruit_list)
 # being replaced with this
-tablestreamlit.dataframe(fruits_to_show)
+streamlit.dataframe(fruits_to_show)
